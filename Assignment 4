@@ -1,1 +1,26 @@
+#Write a Python program to create an array and perform addition of two matrices.(Using list and NumPy array. )
+# Function to add two matrices
+import numpy as np
 
+# Create two 2x3 matrices (arrays)
+matrix_a = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
+
+matrix_b = np.array([
+    [7, 8, 9],
+    [10, 11, 12]
+])
+
+# Perform matrix addition using the + operator
+result = matrix_a + matrix_b
+
+print("Matrix A:")
+print(matrix_a)
+
+print("\nMatrix B:")
+print(matrix_b)
+
+print("\nSum of Matrix A and Matrix B:")
+print(result)
