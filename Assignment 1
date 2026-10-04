@@ -1,1 +1,24 @@
+#creating a list
+l=['amit','neha','puja','asmi']
+print('original list:',l)
+
+#creating a tuple
+t=['amit','neha','puja','asmi']
+print('\n original tuple:',t)
+
+#creating a dictionary with student ID and name
+d={101:'amit',102:'neha',103:'puja',104:'asmi'}
+print('original dictionary:',d)
+
+#adding a new entry to the dictionary
+d[106]='raya'
+print('after adding:',d)
+
+#updating an exsisting entry
+d[102]='siya'
+print('after updating:',d)
+
+#deleting an entry from the dictionary
+del d[103]
+print('after deleting:',d)
 
