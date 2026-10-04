@@ -1,1 +1,18 @@
-
+#To check whether or not the triangle is a right-angled triangle using function
+def is_right_triangle(a, b, c):
+    sides=sorted([a, b, c])
+#arrange sides in ascending order
+    if sides[0]**2+sides[1]**2==sides[2]**2:
+        
+        return True
+        
+#Input side lengths
+a=float(input("enter first side:"))
+b=float(input("enter second side:"))
+c=float(input("enter third side:"))
+#Check display result
+if is_right_triangle(a,b,c):
+    print("the triangle is a right_angled_triangle.")
+else:
+    print("the triangle is not a right angled triangle.")
+    
